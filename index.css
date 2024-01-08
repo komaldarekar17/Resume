@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#navbar{
+    height: 100px;
+    
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+#namehd{
+    font-size: 90px;
+    background-image: linear-gradient(to bottom, violet, indigo, blue, green, pink, crimson, red);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: bolder;
+        
+}
+
+
+#icons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.iconitems{
+    font-size: 30px;
+}
+
+#prof{
+    position: relative;
+    height: 490px;
+}
+
+#simage{
+    position: relative;
+}
+
+#fnhd{
+    position: absolute;
+    top: 20px;
+    background: -webkit-image-set("https://i.pinimg.com/originals/d4/3c/11/d43c11d76c7db33af616426597e88833.gif"); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-position-y:-200px;
+
+}
+
+
+
+#fh1{
+    font-size: 60px;
+}
+
+#fh2{
+    font-size: 45px;
+}
+
+#ctme{
+    border: 1px solid red;
+    padding: 5px;
+    font-size: 13px;
+}
+
+#aboutdiv{
+    height: 400px;
+    width: 100%;
+    background-color: #F0F8FF;
+
+}
+
+#about{
+    height: 400px;
+    width: 98%;
+    background-color: #F0F8FF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+#me{
+    width: auto;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#info{
+    width: 50%;
+    word-spacing: 1px;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+
+
+.btn{
+    width: auto;
+    background-color: white;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 12px;
+    padding: 1px;
+}
+
+#bt{
+    padding: 10px;
+    background-color: #808080;
+    border-radius: 12px;
+    color: white;
+    border: 1px solid white;
+}
+
+
+
+#mainsks{
+    height: 600px;
+    width: 100%;
+    color: white;
+    background-color: #3D3D3D;
+}
+
+#sks{
+    height: 200px;
+    width: 94%;
+    color: white;
+    background-color: #3D3D3D;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+#h1skills{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.skills{
+    width: 320px;
+    height: 60px;
+    text-align: center;
+    background-color: #808080;
+    padding: 10px;
+}
+
+#ft{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#f1{
+    
+}
+
+#f2{
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wbsites{
+    height: 35px;
+    width: auto;
+    background-color: #808080;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#gt{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+a{
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+a:link{
+    color: white;
+}
+
+#f3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.cpt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cphd{
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+
+
+/* for mobile*/
+
+@media screen and (max-width:300px) {
+    #navbar{
+       height: auto;
+       text-align: center;
+    }
+
+    #fnhd{
+        top: 200px;
+        text-align: center;
+        
+    }
+
+    #fh1{
+        font-size: 50px;
+    }
+
+    #fh2{
+        font-size: 30px;
+    }
+
+    #aboutdiv{
+        height: auto;
+        text-align: center;
+    }
+
+    #about{
+        height: auto;
+        margin: 2px;
+        padding-top: 2px;
+        gap: 2px;
+        width: 100%;
+        
+    }
+
+    #info{
+        width: 100%;
+        text-align: center;
+    }
+
+    #me{
+        padding-top:10px ;
+    }
+
+    #mainsks{
+        height: auto;
+    }
+
+    #sks{
+        height: auto;
+        width: 100%;
+        gap: 2px;
+    }
+
+    .skills{
+        height: auto;
+        width: auto;
+
+    }
+
+    #h1skills{
+        padding: 0;
+        margin: 0;
+    }
+
+    #ft{
+        height: auto;
+        text-align: center;
+    }
+
+    #f1{
+        height: auto;
+        width: auto;
+    }
+
+    #f2{
+        width: 100%;
+    }
+
+    #gt{
+        text-align: center;
+    }
+
+    #f3{
+        gap: 5px;
+    }
+
+
+
+}
+
+
+/* for tab*/
+
+@media (min-width:301px) and (max-width:700px) {
+    #navbar{
+       height: auto;
+       text-align: center;
+    }
+
+    #fnhd{
+         top: 200px;
+        left: 20%;
+        right: 20%;
+        padding: auto;
+         text-align: center;
+        
+    }
+
+    #fh1{
+        font-size: 50px;
+        
+    }
+
+    #fh2{
+        font-size: 30px;
+    }
+
+    #aboutdiv{
+        height: auto;
+        text-align: center;
+    }
+
+    #about{
+        height: auto;
+        margin: 2px;
+        padding-top: 5px;
+        gap: 2px;
+        width: 100%;
+        
+    }
+
+    #info{
+        width: 100%;
+        text-align: center;
+    }
+
+    #me{
+        padding-top:10px ;
+    }
+
+    #mainsks{
+        height: auto;
+    }
+
+    #sks{
+        height: auto;
+        width: 100%;
+        gap: 2px;
+    }
+
+    .skills{
+        height: auto;
+        width: auto;
+
+    }
+
+    #h1skills{
+        padding: 0;
+        margin: 0;
+    }
+
+    #ft{
+        height: auto;
+        text-align: center;
+    }
+
+    #f1{
+        height: auto;
+        width: auto;
+    }
+
+    #f2{
+        width: 100%;
+    }
+
+    #gt{
+        text-align: center;
+    }
+
+    #f3{
+        gap: 5px;
+    }
+
+
+
+}
+
+/* for laptop*/
+
+@media (min-width:701px) and (max-width:1100px) {
+    #navbar{
+       height: auto;
+       text-align: center;
+    }
+
+    #fnhd{
+        top: 200px;
+        left: 20%;
+        right: 20%;
+        padding: auto;
+        text-align: center;
+        
+    }
+
+    #fh1{
+        font-size: 50px;
+    }
+
+    #fh2{
+        font-size: 30px;
+    }
+
+    #aboutdiv{
+        height: auto;
+        text-align: center;
+    }
+
+    #about{
+        height: auto;
+        margin: 2px;
+        padding-top: 2px;
+        gap: 2px;
+        width: 100%;
+        
+    }
+
+    #info{
+        width: 100%;
+        text-align: center;
+    }
+
+    #me{
+        padding-top:10px ;
+    }
+
+    #mainsks{
+        height: auto;
+    }
+
+    #sks{
+        height: auto;
+        width: 100%;
+        gap: 2px;
+    }
+
+    .skills{
+        height: auto;
+        width: auto;
+
+    }
+
+    #h1skills{
+        padding: 0;
+        margin: 0;
+    }
+
+    #ft{
+        height: auto;
+        text-align: center;
+    }
+
+    #f1{
+        height: auto;
+        width: auto;
+    }
+
+    #f2{
+        width: 100%;
+    }
+
+    #gt{
+        text-align: center;
+    }
+
+    #f3{
+        gap: 5px;
+    }
+}
